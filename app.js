@@ -1,22 +1,22 @@
 // "Josh"  // string literal
 // 50 // number
 // ["Josh", "Jake"] // array literal
-{ name: "Josh" } // object literal
+// { name: "Josh" } // object literal
 
-// // string of my name
-// let myName = "Josh";
+// string of my name
+let myName = "Josh";
 
-// // Tried this but it didn't. Im so sorry
-// const numberOfStates = 50;
+// Tried this but it didn't. Im so sorry
+const numberOfStates = 50;
 
-// // computed result of 5 plus 4.
-// let result = 5 + 4;
+// computed result of 5 plus 4.
+let result = 5 + 4;
 
-// function sayHello() {
-//     alert("Hello World!");
-// }
+function sayHello() {
+    alert("Hello World!");
+}
 
-// sayHello();
+sayHello();
 
 function checkAge(name, age) {
     if (age < 21) {
@@ -24,50 +24,50 @@ function checkAge(name, age) {
     }
 }
 
-// checkAge("Charles", 21);
-// checkAge("Abby", 27);
-// checkAge("James", 18);
-// checkAge("John", 17);
+checkAge("Charles", 21);
+checkAge("Abby", 27);
+checkAge("James", 18);
+checkAge("John", 17);
 
-// let myFavoriteVeggies = ["Bok Choy", "mushrooms", "leeks", "artichoke", "okra"];
+let myFavoriteVeggies = ["Bok Choy", "mushrooms", "leeks", "artichoke", "okra"];
 
-// for (let i = 0; i < myFavoriteVeggies.length; i++) {
-//     console.log(myFavoriteVeggies[i])
-// }
+for (let i = 0; i < myFavoriteVeggies.length; i++) {
+    console.log(myFavoriteVeggies[i])
+}
 
-// let pet = {
-//     name: "Shiloh",
-//     breed: "Terrier"
-// };
+let pet = {
+    name: "Shiloh",
+    breed: "Terrier"
+};
 
-// console.log(pet.name, pet.breed);
+console.log(pet.name, pet.breed);
 
-// let people = [
-//     {
-//         name: "Josh",
-//         age: 27
-//     },
-//     {
-//         name: "Jake",
-//         age: 35
-//     },
-//     {
-//         name: "Garrett",
-//         age: 22
-//     },
-//     {
-//         name: "Bruce",
-//         age: 10
-//     },
-//     {
-//         name: "Tom",
-//         age: 18
-//     }
-// ];
+let people = [
+    {
+        name: "Josh",
+        age: 27
+    },
+    {
+        name: "Jake",
+        age: 35
+    },
+    {
+        name: "Garrett",
+        age: 22
+    },
+    {
+        name: "Bruce",
+        age: 10
+    },
+    {
+        name: "Tom",
+        age: 18
+    }
+];
 
-// for (let i = 0; i < people.length; i++) {
-//     checkAge(people[i].name, people[i].age);
-// }
+for (let i = 0; i < people.length; i++) {
+    checkAge(people[i].name, people[i].age);
+}
 
 function getLength(word) {
     return word.length
@@ -80,7 +80,6 @@ if (stringLength % 2 == 0) {
 } else {
     console.log('The world is an odd place!')
 }
-
 
 stringLength = 1 // sets the value 
 
